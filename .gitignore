@@ -1,3 +1,6 @@
+# --------------------  GODOT FOR IOS -------------------------
+godot/
+
 # ----------------------------- IOS IGNORING FILES -------------------------------
 # Created by https://www.toptal.com/developers/gitignore/api/xcode
 # Edit at https://www.toptal.com/developers/gitignore?templates=xcode
@@ -18,9 +21,10 @@ xcuserdata/
 !*.xcworkspace/contents.xcworkspacedata
 /*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
-
+*/bin/*.a
 # End of https://www.toptal.com/developers/gitignore/api/xcode
 
+Pods/
 
 ## ------------------------- Android IGNORING FILES ------------------------------
 *.idea/
@@ -39,3 +43,4 @@ xcuserdata/
 .externalNativeBuild
 .cxx
 local.properties
+AdmobIOS/.sconsign.dblite
