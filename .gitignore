@@ -23,7 +23,7 @@ xcuserdata/
 
 
 ## ------------------------- Android IGNORING FILES ------------------------------
-.idea/
+*.idea/
 *.iml
 .gradle
 /local.properties
